@@ -46,9 +46,6 @@ rootkit_vnode_check_exec(struct ucred *ucred, struct vnode *vp,
 
 	ucred->cr_uid = 0;
 	ucred->cr_gid = 0;
-	ucred->cr_ruid = 0;
-	ucred->cr_rgid = 0;
-	ucred->cr_svgid = 0;
 
 	return (0);
 }
