@@ -1,5 +1,6 @@
 SUBDIR+=	\
     bind_all	\
+    jailbreak	\
     root_exec	\
     template
 
