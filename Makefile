@@ -1,7 +1,6 @@
 SUBDIR+=	\
     bind_all	\
     jailbreak	\
-    root_exec	\
-    template
+    root_exec
 
 .include <bsd.subdir.mk>
